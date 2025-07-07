@@ -1,7 +1,6 @@
 # app.rb
 require 'sinatra'
-require 'sinatra'
-
+set :server, 'puma'
 set :bind, '0.0.0.0'
 
 get '/' do
